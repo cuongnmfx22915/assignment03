@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  padding: 15px;
+}
+
+/* CSS CHO DESKTOP */
+@media (min-width: 992px) {
+  /* Tạo grid cho body trang web */
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .timeline-container {
+    grid-area: 1/3/3/4;
+  }
+
+  .team-container {
+    grid-area: 1/2/2/3;
+  }
+}
+
+/* CSS CHO TABLET */
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS CHO MOBILE */
+@media (max-width: 576px) {
+}

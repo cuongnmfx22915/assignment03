@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+  /* -- Phần Navbar -- */
+
+  /* Ẩn ảnh cá nhân */
+  .avatar {
+    display: none;
+  }
+
+  /* -- Phần Mục tiêu nghề nghiệp & Thông tin cá nhân -- */
+  /* Đã căn chỉnh bằng các class Bootstrap 5 */
+
+  /* -- Phần Kinh nghiệm, Học vấn, Hoạt động, Kỹ năng, Ngôn ngữ, Sở thích -- */
+  /* Đã căn chỉnh bằng các class Bootstrap 5 */
+
+  /* -- Phần Chứng chỉ - Giải thưởng -- */
+  /* Căn chỉnh cho các phần không bị tràn ra khỏi container */
+  .certificate {
+    display: grid;
+  }
+
+  .certificate-details {
+    column-gap: 0px;
+  }
+
+  /* -- Phần Dự án -- */
+  .project-title {
+    margin-top: 20px;
+  }
+
+  /* Căn chỉnh lại phần project-label */
+  .project-label {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0;
+    margin: 20px 0;
+    gap: 0;
+  }
+
+  .time-tablet {
+    grid-row: 1 / span 2;
+  }
+
+  .table td {
+    padding: 5px;
+  }
+
+  /* -- Phần Footer -- */
+  /* Giống Desktop */
+}
